@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .x.axis path {
+            display: none;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+</head>
+
+<body style="font: 10px sans-serif;">
+
+    <div style="font-family: sans-serif; text-align: center;">
+        <h1>TP InfoViS </h1>
+        <h3>
+            Cette visualisation represente le nombre d'hospitalisations et de morts dûs à <br />certaines maladies
+            chroniques dans les pays du Magreb durant les trois dernieres années <br />
+            Accéder au code source en cliquant &nbsp;
+            <a href="https://github.com/lilyabeddek/TpInfoVis" target="_blank">
+                ici
+            </a>
+        </h3>
+        <p>Réalisé par : <br />- BEDDEK Lilya (MSL) <br /> - BENNAMANE Khadidja (MSL)<br /> -AMROUCHE Wissam (MST1)<br /></p>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+    </div>
+
+    <select id="selectButton" onchange="updateGraph()" style="margin-left: 100;">
+        <option value="2019" selected>2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+    </select>
+
+    <select id="selectCountry" onchange="updateGraph()" style="margin-left: 100;">
+        <option value="Algerie" selected>Algerie</option>
+        <option value="Tunisie">Tunisie</option>
+        <option value="Maroc">Maroc</option>
+        <option value="Libye">Libye</option>
+        <option value="Mauritanie">Mauritanie</option>
+        <option value="Sahara Occidental">Sahara Occidental</option>
+    </select>
+    <script>
+
+
+        var margin = { top: 20, right: 250, bottom: 30, left: 100 },
+            width = 1500 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+
+        var x0 = d3.scale.ordinal()
+            .rangeRoundBands([0, width - margin.right], .1);
+
+        var x1 = d3.scale.ordinal();
+
+        var y = d3.scale.linear()
+            .range([height, 0]);
+
+        var xAxis = d3.svg.axis()
+            .scale(x0)
+            .tickSize(0)
+            .orient("bottom");
+
+        var yAxis = d3.svg.axis()
+            .scale(y)
+            .orient("left");
+
+        var color = d3.scale.ordinal()
+            .range(["#42d4f4", "#911eb4"]);
+
+        function updateGraph() {
+
+            d3.select('svg').remove()
+
+            var svg = d3.select('body').append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+            d3.json("data.json", function (error, data) {
+
+                selectedYear = d3.select("#selectButton").node().value;
+                selectedCountry = d3.select("#selectCountry").node().value;
+
+                // update the list
+                var allGroup = d3.map(data, function (d) { return (d.annee) }).keys()
+                d3.select('#selectButton').selectAll("*").remove();
+                d3.select("#selectButton")
+                    .selectAll('myOptions')
+                    .data(allGroup)
+                    .enter()
+                    .append('option')
+                    .text(function (d) { return d; })
+                    .attr("value", function (d) { return d; })
+                    .property("selected", function (d) { return d === selectedYear; })
+
+
+
+                console.log(selectedYear)
+                console.log(selectedCountry)
+
+
+                data = data.filter(function (d) { return d.annee == selectedYear })
+                data = data.filter(function (d) { return d.country == selectedCountry })
+
+                console.log(data)
+
+
+                var maladiesNames = data[0].maladies.map(function (d) { return d.maladie; });
+                var rateNames = ["dospitalisation", "death"];
+
+                x0.domain(maladiesNames);
+                x1.domain(rateNames).rangeRoundBands([0, x0.rangeBand()]);
+                y.domain([0, d3.max(data, function (country) { return d3.max(country.maladies, function (d) { return d3.max(d.values, function (t) { return t.value; }); }); })]);
+
+
+                svg.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(xAxis);
+
+                svg.append("g")
+                    .attr("class", "y axis")
+                    .style('opacity', '0')
+                    .call(yAxis)
+                    .append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 6)
+                    .attr("dy", ".71em")
+                    .style("text-anchor", "end")
+                    .style('font-weight', 'bold')
+                    .text("Valeur");
+
+                svg.select('.y').transition().duration(500).delay(1300).style('opacity', '1');
+
+
+                // create a tooltip
+                var Tooltip = d3.select("body")
+                    .append("div")
+                    .style("opacity", 0)
+                    .attr("class", "tooltip")
+                    .style("background-color", "white")
+                    .style("border", "solid")
+                    .style("border-width", "2px")
+                    .style("border-radius", "5px")
+                    .style("padding", "5px")
+
+                var slice = svg.selectAll(".slice")
+                    .data(data[0].maladies)
+                    .enter().append("g")
+                    .attr("class", "g")
+                    .attr("transform", function (d) { return "translate(" + x0(d.maladie) + ",0)"; });
+
+                slice.selectAll("rect")
+                    .data(function (d) { return d.values; })
+                    .enter().append("rect")
+                    .attr("width", x1.rangeBand())
+                    .attr("x", function (d) { return x1(d.rate); })
+                    .style("fill", function (d) { return color(d.rate) })
+                    .attr("y", function (d) { return y(0); })
+                    .attr("height", function (d) { return height - y(0); })
+                    .on("mouseover", function (d) {
+
+                        d3.select(this).style("fill", d3.rgb(color(d.rate)).darker(2));
+                        Tooltip.style("opacity", 1)
+                        Tooltip.html("La valeur exacte est : " + d.value + " cas")
+                            .style("left", (d3.mouse(this)[0] + 70) + "px")
+                            .style("top", (d3.mouse(this)[1]) + "px")
+
+                    })
+                    .on("mouseout", function (d) {
+                        Tooltip.style("opacity", 0)
+                        d3.select(this).style("fill", color(d.rate));
+                    });
+
+
+
+
+
+                slice.selectAll("rect")
+                    .transition()
+                    .delay(function (d) { return Math.random() * 1000; })
+                    .duration(1000)
+                    .attr("y", function (d) { return y(d.value); })
+                    .attr("height", function (d) { return height - y(d.value); });
+
+
+                //Legend
+                var legend = svg.selectAll(".legend")
+                    .data(data[0].maladies[0].values.map(function (d) { return d.rate; }).reverse())
+                    .enter().append("g")
+                    .attr("class", "legend")
+                    .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; })
+                    .style("opacity", "0");
+
+                legend.append("rect")
+                    .attr("x", width)
+                    .attr("width", 18)
+                    .attr("height", 18)
+                    .style("fill", function (d) { return color(d); });
+
+                legend.append("text")
+                    .attr("x", width - 24)
+                    .attr("y", 9)
+                    .attr("dy", ".35em")
+                    .style("text-anchor", "end")
+                    .text(function (d) { return d; });
+
+                legend.transition().duration(500).delay(function (d, i) { return 1300 + 100 * i; }).style("opacity", "1");
+
+
+            });
+
+
+        }
+        updateGraph()
+
+
+    </script>
+</body>

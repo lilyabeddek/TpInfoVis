@@ -1,0 +1,1749 @@
+
+[
+    {
+        "annee":2019,
+        "country": "Algerie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 500, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 300, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 1000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 450, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5899, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 480, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 8000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 4850, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 985800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 456, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 2888, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2020,
+        "country": "Algerie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 500, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },  
+    {
+        "annee":2021,
+        "country": "Algerie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "annee":2019,
+        "country": "Maroc", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 88, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2020,
+        "country": "Maroc", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 88, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2021,
+        "country": "Maroc", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 8888, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "annee":2019,
+        "country": "Tunisie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "annee":2020,
+        "country": "Tunisie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "annee":2021,
+        "country": "Tunisie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "annee":2019,
+        "country": "Sahara Occidental", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2020,
+        "country": "Sahara Occidental", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2021,
+        "country": "Sahara Occidental", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2019,
+        "country": "Libye", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2020,
+        "country": "Libye", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2021,
+        "country": "Libye", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2019,
+        "country": "Mauritanie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2020,
+        "country": "Mauritanie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 5800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 400, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2021,
+        "country": "Mauritanie", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 50000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 4457, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Asthme", 
+                "values": [
+                    {
+                        "value": 5255800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 4788, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 50000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 4582, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 5000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 300, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 15000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 4000, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 1000, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 100000, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 12000, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    }
+]
