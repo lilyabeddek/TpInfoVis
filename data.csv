@@ -1,0 +1,145 @@
+annee,pays,maladie,Nb_Hospitalisation,Nb_Mort
+2019,Algerie,arthrite,11266,5653
+2019,Algerie,asthme,59869,15046
+2019,Algerie,maladies cardiovasculaires,69677,5362
+2019,Algerie,maladie pulmonaire obstructive chronique,92706,9270
+2019,Algerie,Diabete,85939,9012
+2019,Algerie,cardiopathie,18330,18648
+2019,Algerie,Hypertension,7323,8397
+2019,Algerie,accident vasculaire cérébral,57279,16534
+2019,Tunisie,arthrite,54653,17040
+2019,Tunisie,asthme,88432,17832
+2019,Tunisie,maladies cardiovasculaires,46369,17564
+2019,Tunisie,maladie pulmonaire obstructive chronique,98799,6021
+2019,Tunisie,Diabete,45316,8120
+2019,Tunisie,cardiopathie,13279,4687
+2019,Tunisie,Hypertension,26956,2611
+2019,Tunisie,accident vasculaire cérébral,28600,15252
+2019,Mauritanie,arthrite,23407,10641
+2019,Mauritanie,asthme,73739,17286
+2019,Mauritanie,maladies cardiovasculaires,24841,10124
+2019,Mauritanie,maladie pulmonaire obstructive chronique,48210,2470
+2019,Mauritanie,Diabete,12675,16517
+2019,Mauritanie,cardiopathie,27210,11197
+2019,Mauritanie,Hypertension,42771,9869
+2019,Mauritanie,accident vasculaire cérébral,26612,7585
+2019,Maroc,arthrite,98557,13633
+2019,Maroc,asthme,56641,13700
+2019,Maroc,maladies cardiovasculaires,30907,7217
+2019,Maroc,maladie pulmonaire obstructive chronique,17084,1142
+2019,Maroc,Diabete,34932,12685
+2019,Maroc,cardiopathie,92226,14174
+2019,Maroc,Hypertension,33255,4427
+2019,Maroc,accident vasculaire cérébral,68030,10832
+2019,Libye,arthrite,15578,14505
+2019,Libye,asthme,36607,18708
+2019,Libye,maladies cardiovasculaires,89732,10088
+2019,Libye,maladie pulmonaire obstructive chronique,94320,18417
+2019,Libye,Diabete,4201,5281
+2019,Libye,cardiopathie,37896,7759
+2019,Libye,Hypertension,2387,11679
+2019,Libye,accident vasculaire cérébral,97665,16448
+2019,Sahara occidental,arthrite,76578,16138
+2019,Sahara occidental,asthme,45497,1967
+2019,Sahara occidental,maladies cardiovasculaires,90235,19367
+2019,Sahara occidental,maladie pulmonaire obstructive chronique,9845,10928
+2019,Sahara occidental,Diabete,55089,10388
+2019,Sahara occidental,cardiopathie,7936,12660
+2019,Sahara occidental,Hypertension,31955,13330
+2019,Sahara occidental,accident vasculaire cérébral,88268,10295
+2020,Algerie,arthrite,14549,6718
+2020,Algerie,asthme,43018,1436
+2020,Algerie,maladies cardiovasculaires,6303,2265
+2020,Algerie,maladie pulmonaire obstructive chronique,32018,9711
+2020,Algerie,Diabete,40574,9005
+2020,Algerie,cardiopathie,7875,5655
+2020,Algerie,Hypertension,48204,13059
+2020,Algerie,accident vasculaire cérébral,11058,11383
+2020,Tunisie,arthrite,98110,6469
+2020,Tunisie,asthme,73115,2827
+2020,Tunisie,maladies cardiovasculaires,33079,9638
+2020,Tunisie,maladie pulmonaire obstructive chronique,18801,8091
+2020,Tunisie,Diabete,54896,5611
+2020,Tunisie,cardiopathie,64531,1403
+2020,Tunisie,Hypertension,19944,4093
+2020,Tunisie,accident vasculaire cérébral,83866,15641
+2020,Mauritanie,arthrite,93027,4039
+2020,Mauritanie,asthme,70976,1641
+2020,Mauritanie,maladies cardiovasculaires,53091,15640
+2020,Mauritanie,maladie pulmonaire obstructive chronique,4798,10201
+2020,Mauritanie,Diabete,26774,5740
+2020,Mauritanie,cardiopathie,44315,10438
+2020,Mauritanie,Hypertension,19188,17094
+2020,Mauritanie,accident vasculaire cérébral,92170,3104
+2020,Maroc,arthrite,21975,10275
+2020,Maroc,asthme,16251,12119
+2020,Maroc,maladies cardiovasculaires,69635,14576
+2020,Maroc,maladie pulmonaire obstructive chronique,75825,16920
+2020,Maroc,Diabete,95010,6482
+2020,Maroc,cardiopathie,20794,3635
+2020,Maroc,Hypertension,7426,2949
+2020,Maroc,accident vasculaire cérébral,6404,7537
+2020,Libye,arthrite,67993,11790
+2020,Libye,asthme,84140,5446
+2020,Libye,maladies cardiovasculaires,82389,8490
+2020,Libye,maladie pulmonaire obstructive chronique,47493,8364
+2020,Libye,Diabete,62455,11026
+2020,Libye,cardiopathie,68670,17045
+2020,Libye,Hypertension,57688,10536
+2020,Libye,accident vasculaire cérébral,47580,17548
+2020,Sahara occidental,arthrite,10174,18014
+2020,Sahara occidental,asthme,23952,7897
+2020,Sahara occidental,maladies cardiovasculaires,23861,10673
+2020,Sahara occidental,maladie pulmonaire obstructive chronique,31510,17602
+2020,Sahara occidental,Diabete,3827,13754
+2020,Sahara occidental,cardiopathie,98637,13836
+2020,Sahara occidental,Hypertension,14476,3505
+2020,Sahara occidental,accident vasculaire cérébral,40290,14470
+2021,Algerie,arthrite,73682,11681
+2021,Algerie,asthme,92447,7256
+2021,Algerie,maladies cardiovasculaires,79606,4495
+2021,Algerie,maladie pulmonaire obstructive chronique,74501,18318
+2021,Algerie,Diabete,9243,5686
+2021,Algerie,cardiopathie,33653,2192
+2021,Algerie,Hypertension,79627,8714
+2021,Algerie,accident vasculaire cérébral,69387,6140
+2021,Tunisie,arthrite,10015,12255
+2021,Tunisie,asthme,29025,6111
+2021,Tunisie,maladies cardiovasculaires,88874,5207
+2021,Tunisie,maladie pulmonaire obstructive chronique,71630,1014
+2021,Tunisie,Diabete,67126,8130
+2021,Tunisie,cardiopathie,82433,10281
+2021,Tunisie,Hypertension,79707,5722
+2021,Tunisie,accident vasculaire cérébral,42240,1999
+2021,Mauritanie,arthrite,18365,17445
+2021,Mauritanie,asthme,84334,9821
+2021,Mauritanie,maladies cardiovasculaires,41654,14350
+2021,Mauritanie,maladie pulmonaire obstructive chronique,39188,2562
+2021,Mauritanie,Diabete,77803,12418
+2021,Mauritanie,cardiopathie,83695,5341
+2021,Mauritanie,Hypertension,79393,9220
+2021,Mauritanie,accident vasculaire cérébral,24882,14503
+2021,Maroc,arthrite,76817,18493
+2021,Maroc,asthme,9807,1798
+2021,Maroc,maladies cardiovasculaires,11854,16702
+2021,Maroc,maladie pulmonaire obstructive chronique,28328,10071
+2021,Maroc,Diabete,92385,7912
+2021,Maroc,cardiopathie,13128,6504
+2021,Maroc,Hypertension,20319,9738
+2021,Maroc,accident vasculaire cérébral,25104,6696
+2021,Libye,arthrite,47546,6391
+2021,Libye,asthme,87648,18004
+2021,Libye,maladies cardiovasculaires,99657,3145
+2021,Libye,maladie pulmonaire obstructive chronique,85237,14872
+2021,Libye,Diabete,76934,13929
+2021,Libye,cardiopathie,50125,14374
+2021,Libye,Hypertension,33030,7579
+2021,Libye,accident vasculaire cérébral,98981,17910
+2021,Sahara occidental,arthrite,69066,19949
+2021,Sahara occidental,asthme,98465,4099
+2021,Sahara occidental,maladies cardiovasculaires,42266,19645
+2021,Sahara occidental,maladie pulmonaire obstructive chronique,7287,5682
+2021,Sahara occidental,Diabete,81623,3295
+2021,Sahara occidental,cardiopathie,28233,8172
+2021,Sahara occidental,Hypertension,10817,4153
+2021,Sahara occidental,accident vasculaire cérébral,19710,13757
