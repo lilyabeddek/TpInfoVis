@@ -9,9 +9,16 @@
             stroke: #000;
             shape-rendering: crispEdges;
         }
-
+        
         .x.axis path {
             display: none;
+        }
+        
+        .tooltip {
+            position: absolute;
+            width: 200px;
+            height: auto;
+            pointer-events: none;
         }
     </style>
     <script src="https://d3js.org/d3.v3.min.js"></script>
@@ -22,9 +29,7 @@
     <div style="font-family: sans-serif; text-align: center;">
         <h1>TP InfoViS </h1>
         <h3>
-            Cette visualisation represente le nombre d'hospitalisations et de morts dûs à <br />certaines maladies
-            chroniques dans les pays du Magreb durant les trois dernieres années <br />
-            Accéder au code source en cliquant &nbsp;
+            Cette visualisation represente le nombre d'hospitalisations et de morts dûs à <br />certaines maladies chroniques dans les pays du Magreb durant les trois dernieres années <br /> Accéder au code source en cliquant &nbsp;
             <a href="https://github.com/lilyabeddek/TpInfoVis" target="_blank">
                 ici
             </a>
@@ -52,9 +57,12 @@
         <option value="Sahara Occidental">Sahara Occidental</option>
     </select>
     <script>
-
-
-        var margin = { top: 20, right: 250, bottom: 30, left: 100 },
+        var margin = {
+                top: 20,
+                right: 250,
+                bottom: 30,
+                left: 100
+            },
             width = 1500 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
 
@@ -89,22 +97,30 @@
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 
-            d3.json("data.json", function (error, data) {
+            d3.json("data.json", function(error, data) {
 
                 selectedYear = d3.select("#selectButton").node().value;
                 selectedCountry = d3.select("#selectCountry").node().value;
 
                 // update the list
-                var allGroup = d3.map(data, function (d) { return (d.annee) }).keys()
+                var allGroup = d3.map(data, function(d) {
+                    return (d.annee)
+                }).keys()
                 d3.select('#selectButton').selectAll("*").remove();
                 d3.select("#selectButton")
                     .selectAll('myOptions')
                     .data(allGroup)
                     .enter()
                     .append('option')
-                    .text(function (d) { return d; })
-                    .attr("value", function (d) { return d; })
-                    .property("selected", function (d) { return d === selectedYear; })
+                    .text(function(d) {
+                        return d;
+                    })
+                    .attr("value", function(d) {
+                        return d;
+                    })
+                    .property("selected", function(d) {
+                        return d === selectedYear;
+                    })
 
 
 
@@ -112,18 +128,30 @@
                 console.log(selectedCountry)
 
 
-                data = data.filter(function (d) { return d.annee == selectedYear })
-                data = data.filter(function (d) { return d.country == selectedCountry })
+                data = data.filter(function(d) {
+                    return d.annee == selectedYear
+                })
+                data = data.filter(function(d) {
+                    return d.country == selectedCountry
+                })
 
                 console.log(data)
 
 
-                var maladiesNames = data[0].maladies.map(function (d) { return d.maladie; });
+                var maladiesNames = data[0].maladies.map(function(d) {
+                    return d.maladie;
+                });
                 var rateNames = ["dospitalisation", "death"];
 
                 x0.domain(maladiesNames);
                 x1.domain(rateNames).rangeRoundBands([0, x0.rangeBand()]);
-                y.domain([0, d3.max(data, function (country) { return d3.max(country.maladies, function (d) { return d3.max(d.values, function (t) { return t.value; }); }); })]);
+                y.domain([0, d3.max(data, function(country) {
+                    return d3.max(country.maladies, function(d) {
+                        return d3.max(d.values, function(t) {
+                            return t.value;
+                        });
+                    });
+                })]);
 
 
                 svg.append("g")
@@ -147,41 +175,63 @@
 
 
                 // create a tooltip
-                var Tooltip = d3.select("body")
-                    .append("div")
-                    .style("opacity", 0)
+
+                var tooltip = d3.select("body").append("div")
                     .attr("class", "tooltip")
-                    .style("background-color", "white")
+                    .style("opacity", 0)
                     .style("border", "solid")
-                    .style("border-width", "2px")
-                    .style("border-radius", "5px")
+                    .style("background-color", "white")
                     .style("padding", "5px")
+                    .style("border-width", "2px")
+                    .style("border-radius", "5px");
+
+
+
+
+
+
 
                 var slice = svg.selectAll(".slice")
                     .data(data[0].maladies)
                     .enter().append("g")
                     .attr("class", "g")
-                    .attr("transform", function (d) { return "translate(" + x0(d.maladie) + ",0)"; });
+                    .attr("transform", function(d) {
+                        return "translate(" + x0(d.maladie) + ",0)";
+                    });
 
                 slice.selectAll("rect")
-                    .data(function (d) { return d.values; })
+                    .data(function(d) {
+                        return d.values;
+                    })
                     .enter().append("rect")
                     .attr("width", x1.rangeBand())
-                    .attr("x", function (d) { return x1(d.rate); })
-                    .style("fill", function (d) { return color(d.rate) })
-                    .attr("y", function (d) { return y(0); })
-                    .attr("height", function (d) { return height - y(0); })
-                    .on("mouseover", function (d) {
+                    .attr("x", function(d) {
+                        return x1(d.rate);
+                    })
+                    .style("fill", function(d) {
+                        return color(d.rate)
+                    })
+                    .attr("y", function(d) {
+                        return y(0);
+                    })
+                    .attr("height", function(d) {
+                        return height - y(0);
+                    })
+                    .on("mouseover", function(d) {
 
                         d3.select(this).style("fill", d3.rgb(color(d.rate)).darker(2));
-                        Tooltip.style("opacity", 1)
-                        Tooltip.html("La valeur exacte est : " + d.value + " cas")
-                            .style("left", (d3.mouse(this)[0] + 70) + "px")
-                            .style("top", (d3.mouse(this)[1]) + "px")
+                        tooltip.transition()
+                            .duration(200)
+                            .style("opacity", .9);
+                        tooltip.html("La valeur exacte est : " + d.value + " cas")
+                            .style("left", (d3.event.pageX + 5) + "px")
+                            .style("top", (d3.event.pageY - 28) + "px");
 
                     })
-                    .on("mouseout", function (d) {
-                        Tooltip.style("opacity", 0)
+                    .on("mouseout", function(d) {
+                        tooltip.transition()
+                            .duration(500)
+                            .style("opacity", 0);
                         d3.select(this).style("fill", color(d.rate));
                     });
 
@@ -189,36 +239,53 @@
 
 
 
+
                 slice.selectAll("rect")
                     .transition()
-                    .delay(function (d) { return Math.random() * 1000; })
+                    .delay(function(d) {
+                        return Math.random() * 1000;
+                    })
                     .duration(1000)
-                    .attr("y", function (d) { return y(d.value); })
-                    .attr("height", function (d) { return height - y(d.value); });
+                    .attr("y", function(d) {
+                        return y(d.value);
+                    })
+                    .attr("height", function(d) {
+                        return height - y(d.value);
+                    });
 
 
                 //Legend
                 var legend = svg.selectAll(".legend")
-                    .data(data[0].maladies[0].values.map(function (d) { return d.rate; }).reverse())
+                    .data(data[0].maladies[0].values.map(function(d) {
+                        return d.rate;
+                    }).reverse())
                     .enter().append("g")
                     .attr("class", "legend")
-                    .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; })
+                    .attr("transform", function(d, i) {
+                        return "translate(0," + i * 20 + ")";
+                    })
                     .style("opacity", "0");
 
                 legend.append("rect")
                     .attr("x", width)
                     .attr("width", 18)
                     .attr("height", 18)
-                    .style("fill", function (d) { return color(d); });
+                    .style("fill", function(d) {
+                        return color(d);
+                    });
 
                 legend.append("text")
                     .attr("x", width - 24)
                     .attr("y", 9)
                     .attr("dy", ".35em")
                     .style("text-anchor", "end")
-                    .text(function (d) { return d; });
+                    .text(function(d) {
+                        return d;
+                    });
 
-                legend.transition().duration(500).delay(function (d, i) { return 1300 + 100 * i; }).style("opacity", "1");
+                legend.transition().duration(500).delay(function(d, i) {
+                    return 1300 + 100 * i;
+                }).style("opacity", "1");
 
 
             });
@@ -226,7 +293,5 @@
 
         }
         updateGraph()
-
-
     </script>
 </body>
