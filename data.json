@@ -8,11 +8,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5000, 
+                        "value": 3490, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 670, 
                         "rate": "death"
                     }
                 ]
@@ -21,11 +21,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 500, 
+                        "value": 980, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 300, 
+                        "value": 306, 
                         "rate": "death"
                     }
                 ]
@@ -34,11 +34,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 1000, 
+                        "value": 1978, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 450, 
+                        "value": 459, 
                         "rate": "death"
                     }
                 ]
@@ -47,11 +47,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5899, 
+                        "value": 3849, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 480, 
+                        "value": 789, 
                         "rate": "death"
                     }
                 ]
@@ -60,7 +60,7 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 8000, 
+                        "value": 8930, 
                         "rate": "hospitalisation"
                     }, 
                     {
@@ -73,11 +73,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 985800, 
+                        "value": 7858, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 456, 
+                        "value": 2456, 
                         "rate": "death"
                     }
                 ]
@@ -86,11 +86,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5000, 
+                        "value": 5450, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 2888, 
+                        "value": 2408, 
                         "rate": "death"
                     }
                 ]
@@ -105,11 +105,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 500, 
+                        "value": 580, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 430, 
                         "rate": "death"
                     }
                 ]
@@ -118,11 +118,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 790, 
                         "rate": "death"
                     }
                 ]
@@ -131,11 +131,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 2450, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -144,11 +144,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 1800, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -157,11 +157,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8870, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 980, 
                         "rate": "death"
                     }
                 ]
@@ -170,11 +170,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3460, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 670, 
                         "rate": "death"
                     }
                 ]
@@ -183,11 +183,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 1270, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 200, 
                         "rate": "death"
                     }
                 ]
@@ -202,11 +202,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9600, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 2300, 
                         "rate": "death"
                     }
                 ]
@@ -215,11 +215,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 6700, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 1300, 
                         "rate": "death"
                     }
                 ]
@@ -241,11 +241,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9800, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 670, 
                         "rate": "death"
                     }
                 ]
@@ -254,11 +254,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 500, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 80, 
                         "rate": "death"
                     }
                 ]
@@ -267,11 +267,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 4590, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 700, 
                         "rate": "death"
                     }
                 ]
@@ -280,11 +280,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9000, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 6700, 
                         "rate": "death"
                     }
                 ]
@@ -299,11 +299,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 88, 
+                        "value": 888, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 460, 
                         "rate": "death"
                     }
                 ]
@@ -312,11 +312,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 3400, 
                         "rate": "death"
                     }
                 ]
@@ -325,11 +325,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3450, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 756, 
                         "rate": "death"
                     }
                 ]
@@ -338,11 +338,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 105, 
                         "rate": "death"
                     }
                 ]
@@ -351,11 +351,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8600, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 500, 
                         "rate": "death"
                     }
                 ]
@@ -364,11 +364,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 760, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 40, 
                         "rate": "death"
                     }
                 ]
@@ -377,11 +377,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 4400, 
                         "rate": "death"
                     }
                 ]
@@ -396,11 +396,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 88, 
+                        "value": 880, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 300, 
                         "rate": "death"
                     }
                 ]
@@ -409,11 +409,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 430, 
                         "rate": "death"
                     }
                 ]
@@ -422,11 +422,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8980, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 5600, 
                         "rate": "death"
                     }
                 ]
@@ -435,11 +435,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8920, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -448,11 +448,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3400, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -461,11 +461,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5880, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 440, 
                         "rate": "death"
                     }
                 ]
@@ -474,11 +474,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8924, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -506,11 +506,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 4540, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 600, 
                         "rate": "death"
                     }
                 ]
@@ -519,11 +519,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5300, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 830, 
                         "rate": "death"
                     }
                 ]
@@ -532,11 +532,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 500, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 90, 
                         "rate": "death"
                     }
                 ]
@@ -545,11 +545,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3340, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 230, 
                         "rate": "death"
                     }
                 ]
@@ -558,11 +558,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 1230, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 110, 
                         "rate": "death"
                     }
                 ]
@@ -571,11 +571,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3450, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 930, 
                         "rate": "death"
                     }
                 ]
@@ -590,11 +590,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 2399, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 129, 
                         "rate": "death"
                     }
                 ]
@@ -603,11 +603,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9802, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 3473, 
                         "rate": "death"
                     }
                 ]
@@ -616,11 +616,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8890, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 903, 
                         "rate": "death"
                     }
                 ]
@@ -629,11 +629,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 7800, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 1000, 
                         "rate": "death"
                     }
                 ]
@@ -642,11 +642,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 4892, 
                         "rate": "death"
                     }
                 ]
@@ -655,11 +655,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5300, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 780, 
                         "rate": "death"
                     }
                 ]
@@ -668,11 +668,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 7842, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 320, 
                         "rate": "death"
                     }
                 ]
@@ -687,11 +687,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3220, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 840, 
                         "rate": "death"
                     }
                 ]
@@ -700,11 +700,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 2120, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 90, 
                         "rate": "death"
                     }
                 ]
@@ -713,11 +713,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 290, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 200, 
                         "rate": "death"
                     }
                 ]
@@ -726,11 +726,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 4030, 
                         "rate": "death"
                     }
                 ]
@@ -739,11 +739,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5440, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 800, 
                         "rate": "death"
                     }
                 ]
@@ -752,11 +752,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 780, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 98, 
                         "rate": "death"
                     }
                 ]
@@ -765,11 +765,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 7890, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 670, 
                         "rate": "death"
                     }
                 ]
@@ -784,11 +784,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9670, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 970, 
                         "rate": "death"
                     }
                 ]
@@ -797,11 +797,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8956, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 780, 
                         "rate": "death"
                     }
                 ]
@@ -810,11 +810,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 890, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 70, 
                         "rate": "death"
                     }
                 ]
@@ -823,11 +823,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3849, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 834, 
                         "rate": "death"
                     }
                 ]
@@ -836,11 +836,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 470, 
                         "rate": "death"
                     }
                 ]
@@ -862,11 +862,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3300, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 90, 
                         "rate": "death"
                     }
                 ]
@@ -881,11 +881,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3590, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 990, 
                         "rate": "death"
                     }
                 ]
@@ -894,11 +894,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9000, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 1200, 
                         "rate": "death"
                     }
                 ]
@@ -907,11 +907,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 7439, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -920,11 +920,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 1244, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 260, 
                         "rate": "death"
                     }
                 ]
@@ -933,11 +933,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 430, 
                         "rate": "death"
                     }
                 ]
@@ -946,11 +946,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9030, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 1800, 
                         "rate": "death"
                     }
                 ]
@@ -959,11 +959,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 200, 
                         "rate": "death"
                     }
                 ]
@@ -978,11 +978,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3200, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -991,11 +991,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 4400, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 440, 
                         "rate": "death"
                     }
                 ]
@@ -1004,11 +1004,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 6600, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 800, 
                         "rate": "death"
                     }
                 ]
@@ -1017,11 +1017,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9600, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 1400, 
                         "rate": "death"
                     }
                 ]
@@ -1030,11 +1030,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 7800, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 980, 
                         "rate": "death"
                     }
                 ]
@@ -1043,11 +1043,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 1780, 
                         "rate": "death"
                     }
                 ]
@@ -1056,11 +1056,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9000, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 720, 
                         "rate": "death"
                     }
                 ]
@@ -1075,11 +1075,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3333, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 430, 
                         "rate": "death"
                     }
                 ]
@@ -1088,11 +1088,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 2562, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 892, 
                         "rate": "death"
                     }
                 ]
@@ -1101,11 +1101,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 500, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 40, 
                         "rate": "death"
                     }
                 ]
@@ -1127,11 +1127,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 6798, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 880, 
                         "rate": "death"
                     }
                 ]
@@ -1140,7 +1140,39 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 4570, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 800, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 4590, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 680, 
+                        "rate": "death"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "annee":2019,
+        "country": "Libye", 
+        "maladies": [
+            {
+                "maladie": "Arthrite", 
+                "values": [
+                    {
+                        "value": 1240, 
                         "rate": "hospitalisation"
                     }, 
                     {
@@ -1150,14 +1182,79 @@
                 ]
             }, 
             {
-                "maladie": "Accident vasculaire cérébral", 
+                "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 500, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Maladies cardiovasculaires", 
+                "values": [
+                    {
+                        "value": 7700, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 770, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Diabete", 
+                "values": [
+                    {
+                        "value": 8800, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 780, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Cardiopathie", 
+                "values": [
+                    {
+                        "value": 8590, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 900, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Hypertension", 
+                "values": [
+                    {
+                        "value": 5400, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 900, 
+                        "rate": "death"
+                    }
+                ]
+            }, 
+            {
+                "maladie": "Accident vasculaire cérébral", 
+                "values": [
+                    {
+                        "value": 500, 
+                        "rate": "hospitalisation"
+                    }, 
+                    {
+                        "value": 40, 
                         "rate": "death"
                     }
                 ]
@@ -1165,7 +1262,7 @@
         ]
     },
     {
-        "annee":2019,
+        "annee":2020,
         "country": "Libye", 
         "maladies": [
             {
@@ -1198,11 +1295,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 3590, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 990, 
                         "rate": "death"
                     }
                 ]
@@ -1211,11 +1308,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 4540, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -1224,7 +1321,7 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5330, 
                         "rate": "hospitalisation"
                     }, 
                     {
@@ -1237,11 +1334,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 430, 
                         "rate": "death"
                     }
                 ]
@@ -1250,108 +1347,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9000, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
-                        "rate": "death"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "annee":2020,
-        "country": "Libye", 
-        "maladies": [
-            {
-                "maladie": "Arthrite", 
-                "values": [
-                    {
-                        "value": 5800, 
-                        "rate": "hospitalisation"
-                    }, 
-                    {
-                        "value": 400, 
-                        "rate": "death"
-                    }
-                ]
-            }, 
-            {
-                "maladie": "Asthme", 
-                "values": [
-                    {
-                        "value": 5800, 
-                        "rate": "hospitalisation"
-                    }, 
-                    {
-                        "value": 400, 
-                        "rate": "death"
-                    }
-                ]
-            }, 
-            {
-                "maladie": "Maladies cardiovasculaires", 
-                "values": [
-                    {
-                        "value": 5800, 
-                        "rate": "hospitalisation"
-                    }, 
-                    {
-                        "value": 400, 
-                        "rate": "death"
-                    }
-                ]
-            }, 
-            {
-                "maladie": "Diabete", 
-                "values": [
-                    {
-                        "value": 5800, 
-                        "rate": "hospitalisation"
-                    }, 
-                    {
-                        "value": 400, 
-                        "rate": "death"
-                    }
-                ]
-            }, 
-            {
-                "maladie": "Cardiopathie", 
-                "values": [
-                    {
-                        "value": 5800, 
-                        "rate": "hospitalisation"
-                    }, 
-                    {
-                        "value": 400, 
-                        "rate": "death"
-                    }
-                ]
-            }, 
-            {
-                "maladie": "Hypertension", 
-                "values": [
-                    {
-                        "value": 5800, 
-                        "rate": "hospitalisation"
-                    }, 
-                    {
-                        "value": 400, 
-                        "rate": "death"
-                    }
-                ]
-            }, 
-            {
-                "maladie": "Accident vasculaire cérébral", 
-                "values": [
-                    {
-                        "value": 5800, 
-                        "rate": "hospitalisation"
-                    }, 
-                    {
-                        "value": 400, 
+                        "value": 880, 
                         "rate": "death"
                     }
                 ]
@@ -1366,11 +1366,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9800, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 500, 
                         "rate": "death"
                     }
                 ]
@@ -1418,11 +1418,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 2300, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 490, 
                         "rate": "death"
                     }
                 ]
@@ -1431,11 +1431,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 2300, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 990, 
                         "rate": "death"
                     }
                 ]
@@ -1444,11 +1444,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 530, 
                         "rate": "death"
                     }
                 ]
@@ -1502,11 +1502,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9900, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 790, 
                         "rate": "death"
                     }
                 ]
@@ -1515,11 +1515,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5890, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 490, 
                         "rate": "death"
                     }
                 ]
@@ -1528,11 +1528,11 @@
                 "maladie": "Hypertension", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 2890, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 430, 
                         "rate": "death"
                     }
                 ]
@@ -1541,11 +1541,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 8930, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 80, 
                         "rate": "death"
                     }
                 ]
@@ -1560,11 +1560,11 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 4400, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 440, 
                         "rate": "death"
                     }
                 ]
@@ -1573,11 +1573,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 9000, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 900, 
                         "rate": "death"
                     }
                 ]
@@ -1586,11 +1586,11 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 5340, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 800, 
                         "rate": "death"
                     }
                 ]
@@ -1599,11 +1599,11 @@
                 "maladie": "Diabete", 
                 "values": [
                     {
-                        "value": 5800, 
+                        "value": 4540, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 400, 
+                        "value": 600, 
                         "rate": "death"
                     }
                 ]
@@ -1657,7 +1657,7 @@
                 "maladie": "Arthrite", 
                 "values": [
                     {
-                        "value": 50000, 
+                        "value": 5000, 
                         "rate": "hospitalisation"
                     }, 
                     {
@@ -1670,11 +1670,11 @@
                 "maladie": "Asthme", 
                 "values": [
                     {
-                        "value": 5255800, 
+                        "value": 5255, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 4788, 
+                        "value": 788, 
                         "rate": "death"
                     }
                 ]
@@ -1683,7 +1683,7 @@
                 "maladie": "Maladies cardiovasculaires", 
                 "values": [
                     {
-                        "value": 50000, 
+                        "value": 5000, 
                         "rate": "hospitalisation"
                     }, 
                     {
@@ -1709,11 +1709,11 @@
                 "maladie": "Cardiopathie", 
                 "values": [
                     {
-                        "value": 15000, 
+                        "value": 1500, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 4000, 
+                        "value": 400, 
                         "rate": "death"
                     }
                 ]
@@ -1735,11 +1735,11 @@
                 "maladie": "Accident vasculaire cérébral", 
                 "values": [
                     {
-                        "value": 100000, 
+                        "value": 1000, 
                         "rate": "hospitalisation"
                     }, 
                     {
-                        "value": 12000, 
+                        "value": 120, 
                         "rate": "death"
                     }
                 ]
