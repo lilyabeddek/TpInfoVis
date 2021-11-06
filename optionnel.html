@@ -3,7 +3,6 @@
 <meta charset="utf-8">
 
 <style>
-    
     .axis path,
     .axis line {
         fill: none;
@@ -18,7 +17,7 @@
     .tooltip {
         position: absolute;
         width: 200px;
-        height: 28px;
+        height: auto;
         pointer-events: none;
     }
 </style>
@@ -113,7 +112,12 @@
             // add the tooltip area to the webpage
             var tooltip = d3.select("body").append("div")
                 .attr("class", "tooltip")
-                .style("opacity", 0);
+                .style("opacity", 0)
+                .style("border", "solid")
+                .style("background-color", "white")
+                .style("padding", "5px")
+                .style("border-width", "2px")
+                .style("border-radius", "5px");
 
             // load data
             d3.csv("data.csv", function(error, data) {
